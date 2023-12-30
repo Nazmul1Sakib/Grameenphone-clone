@@ -1,0 +1,155 @@
+.shop-container{
+    margin-top: 50px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: white;
+}
+.item{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    min-height: 412px;
+}
+.shop-box{
+text-decoration: none;
+border: 1px solid rgb(228, 228, 228);
+}
+.product-preview{
+    text-align: center;
+    display: block;
+    margin: 0 auto 24px;
+    height: 212px;
+    transition: all ease-in-out;
+}
+.product-preview:hover img{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+.product-preview img{
+    max-height: 212px;
+    display: block;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.pro_list_warrenty_note{
+    background: #ffffff;
+    opacity: 0.91;
+    border-radius: 6px;
+    z-index: 333;
+    position: absolute;
+    top: 2455px;
+    left: 50px;
+    width: 92px;
+    height: 30px;
+    padding: 0px 5px;
+    transform: skewX(-10deg);
+    display: flex;
+    width: auto;
+}
+.pro_list_warrenty_note_num span{
+    color: #007ad0;
+    font-family: "Telenor","Helvetica Neue",Helvetica,Arial,Noto Sans Bengali,sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 17px;
+    display: inline-block;
+}
+.pro_list_warrenty_note_txt{
+    display: grid;
+    margin-left: 5px;
+    font-family: "Telenor","Helvetica Neue",Helvetica,Arial,Noto Sans Bengali,sans-serif;
+}
+.pro_list_warrenty_note_txt span:nth-child(1){
+    color: #007ad0;
+    font-size: 12px;
+    line-height: 10px;
+}
+.pro_list_warrenty_note_txt span:nth-child(2){
+    color: #1a1a1a;
+    font-size: 8px;
+    line-height: 8px;
+}
+.lozad{
+width: 212px;
+height: 212px;
+margin-top: 35px;
+margin-left: 50px;
+}
+
+.prod_emi_txt{
+    position: absolute;
+    top: 2665px;
+    left: 150px;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Telenor;
+    font-style: italic;
+    font-weight: bold;
+    background: #a3deff;
+    border-radius: 50px;
+    padding: 3px 9px 2px 9px;
+    color: #1a1a1a;
+}
+.shop-box span{
+    display: block;
+}
+.product-title{
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 25px;
+    font-family: "Telenor","Helvetica Neue",Helvetica,Arial,Noto Sans Bengali,sans-serif;
+}
+.new-price{
+    font-size: 14px;
+    font-family: "Telenor","Helvetica Neue",Helvetica,Arial,Noto Sans Bengali,sans-serif;
+    font-weight: normal;
+    color: #1a1a1a;
+    line-height: 28px;
+    padding: 0 0 4px 0;
+}
+.shop-box .badges-deals {
+    position: absolute;
+    top: 2412px;
+    left: 100px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    z-index: 222;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    font-family: "Telenor","Helvetica Neue",Helvetica,Arial,Noto Sans Bengali,sans-serif;
+    font-weight: 400 !important;
+    color: #1a1a1a;
+}
+.badges-deals{
+    background: #b0f0b2;
+    text-align: center;
+    width: auto;
+    font-weight: bold;
+    border-radius: 555px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1a1a1a;
+    display: inline-block;
+    padding: 5px 16px;
+    font-family: "Telenor","Helvetica Neue",Helvetica,Arial,Noto Sans Bengali,sans-serif;
+}
+.pro_list_custom_note span{
+    font-size: 12px;
+    line-height: 15px;
+    color: #767676;
+}
+.shop-container .shop-btn{
+height: 40px;
+width: 135px;
+margin-top: 50px;
+margin-left: 600px;
+margin-bottom: 50px;
+}

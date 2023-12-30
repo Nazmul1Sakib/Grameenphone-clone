@@ -1,0 +1,123 @@
+/* body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    justify-self: center;
+    align-items: center;
+    background-color: rgb(204, 204, 204);
+}
+.section{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slide{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.slide input{
+    display: none;
+}
+.st{
+    width: 20%;
+    transition: 2s;
+}
+.st img{
+    width: 800px;
+    height: 500px;
+}
+.nav-m{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    justify-content: center;
+    display: flex;
+}
+.m-btn{
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.m-btn:not(:last-child){
+    margin-right: 30px;
+}
+.m-btn:hover{
+    background-color: gray;
+}
+#radio1:checked~.first{
+margin-left: 0;
+}
+#radio1:checked~.first{
+    margin-left: -20%;
+    }
+#radio1:checked~.first{
+        margin-left: -40%;
+        }
+#radio1:checked~.first{
+            margin-left: -60%;
+            }
+#radio1:checked~.first{
+                margin-left: 0;
+                } */
+.slide-container{
+    width: 780px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.img-container{
+    width: 3120px;
+    height: 350px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+.img-slide{
+float: left;
+margin: 0;
+padding: 0;
+}
+.btn-container{
+    position: relative;
+    top: -20px;
+}
+.slider-btn{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+#slider-img-1:target ~ .img-container{
+    left: 0px;
+}
+#slider-img-2:target ~ .img-container{
+    left: -780px;
+}
+#slider-img-3:target ~ .img-container{
+    left: -1560px;
+}
+#slider-img-3:target ~ .img-container{
+    left: -1560px;
+}
+#slider-img-4:target ~ .img-container{
+    left: -2340px;
+}
+
+

@@ -1,0 +1,255 @@
+.business-container{
+    background-image: url(https://cdn01.grameenphone.com/sites/all/themes/gprev_eighteen/images/image_bg_dark-blue-circles.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+}
+.business-header h2{
+    color: white;
+    padding-top: 50px;
+}
+.business-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 50px;
+}
+.slides span{
+position: absolute;
+top: 5970px;
+left: 50px;
+color: white;
+font-size: 16px;
+width: 360px;
+}
+.business-box .slides .btn-container{
+    position: absolute;
+    top: 6075px;
+    right: 100px;
+}
+.business-box .slides .nav-bar .prev-bar,
+.business-box .slides .nav-bar .next-bar{
+    top: 5850px;
+}
+.help-container{
+    width: 100%;
+    background: #ffffff;
+}
+.help-container-box{
+    height: 350px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.help-container .help-title h2{
+    padding-top: 50px;
+    padding-bottom: 48px;
+    font-weight: 500;
+    font-family: "Telenor","Helvetica Neue",Helvetica,Arial,Noto Sans Bengali,sans-serif;
+    font-size: 26px;
+    line-height: 36px;
+}
+.help-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+.how-can-we-help-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.how-can-we-help-item-icon{
+    background: #007ad0;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+.how-can-we-help-item-text div{
+    font-weight: 700;
+    font-family: "Telenor","Helvetica Neue",Helvetica,Arial,Noto Sans Bengali,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.container-4g-speed{
+    background-image: url(https://cdn01.grameenphone.com/sites/all/themes/gprev_eighteen/images/enjoylife.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container{
+    color: white;
+    background: rgba(20,77,183,0.75);
+    border-radius: 30px 0px;
+    padding: 44px;
+    width: 416px;
+    min-height: 320px;
+    left: calc(50% - 416px / 2 - 324px);
+    position: relative;
+}
+.container h2{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+}
+.container ul{
+list-style-type: disc;
+}
+.container li{
+    float: none;
+    color: #ffffff;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    margin-bottom: 16px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.trasparent-btn{
+    background-color: transparent;
+    font-weight: 500;
+    width: 130px;
+    height: 40px;
+    border: 1px solid white;
+}
+.container li::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+.logo-container{
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.social-container{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: 1fr 1fr 1fr 1fr 1fr;
+}
+.social-box{
+    display: flex;
+    flex-direction: column;
+}
+.social-box h2{
+    display: block;
+    font-weight: 700;
+    font-family: "Telenor","Helvetica Neue",Helvetica,Arial,Noto Sans Bengali,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 50px;
+}
+.social-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 20px;
+}
+.social-list ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 20px;
+}
+.social-list ul li {
+    float: left;
+}
+.content ul{
+    display: flex;
+    flex-direction: column;
+    float: none;
+}
+.content ul li{
+    padding-left: 35px;
+}
+.content ul li a{
+    color: rgb(100, 100, 100); 
+    float: left;
+    text-align: left;
+}
+.digital-wrapper-block .btn-box a {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 160px;
+    height: 48px;
+    text-indent: -999999px;
+    display: block;
+}
+.btn-box a {
+    display: inline-block;
+    margin-right: 16px;
+}
+.digital-wrapper-block .btn-box a.digi_apple_btn {
+    background-image: url(/sites/all/themes/gprev_eighteen/images/img_lg_playstore.svg);
+}
+.digital-wrapper-block .btn-box a.digi_google_btn {
+    background-image: url(/sites/all/themes/gprev_eighteen/images/img_lg_appstore.svg);
+}
+.digital-wrapper-block .btn-box a {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 160px;
+    height: 48px;
+    text-indent: -999999px;
+    display: block;
+}
+.btn-box a {
+    margin-right: 16px;
+}
+.digital-wrapper-block {
+    font-family: "Telenor","Helvetica Neue",Helvetica,Arial,Noto Sans Bengali,sans-serif;
+    max-width: 1064px;
+    margin: auto;
+}
+.company{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+}
+.company a svg{
+    width: 205px;
+    height: 32px;
+    margin: 25px;
+}
+.company-container{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(215, 215, 215);
+}
+.company-container p{
+    padding-top: 50px;
+    color: rgb(100, 100, 100);
+    font-size: small;
+}
+.company-box{
+    padding-left: 560px;
+    padding-top: 50px;
+}
+.company-box ul li a{
+    color: rgb(100, 100, 100);
+}
