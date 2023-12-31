@@ -185,11 +185,6 @@ h3{
   transform: rotate(6.2deg);
   z-index: -1;
 }
-.nav-bar .prev-bar:hover ,
-.nav-bar .next-bar:hover{
-  background: white;
-  background-color: white;
-}
 .nav-bar .prev-bar{
   position: absolute;
   top: 1325px;
