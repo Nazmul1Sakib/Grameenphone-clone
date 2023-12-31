@@ -276,11 +276,12 @@ a {
   width: 48px;
   height: 48px;
   cursor: pointer;
+  z-index: 99999;
 }
 .massege-box svg{
   width: 48px;
   height: 48px;
-  z-index:9999;
+  z-index:999999;
 }
 .last-section{
   background-color: #ededed;
