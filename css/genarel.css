@@ -94,6 +94,11 @@ button:hover{
     background: #204d74;
     border-color: #122b40;
 }
+btn:hover{
+    color: #ffffff;
+    background: #204d74;
+    border-color: #122b40;
+}
 h5{
   position: absolute;
   top: 1450px;
