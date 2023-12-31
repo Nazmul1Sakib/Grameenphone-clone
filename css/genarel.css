@@ -285,6 +285,7 @@ a {
 .massege-box svg{
   width: 48px;
   height: 48px;
+  z-index:9999;
 }
 .last-section{
   background-color: #ededed;
