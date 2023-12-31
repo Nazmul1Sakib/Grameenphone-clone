@@ -92,11 +92,6 @@ button{
 }
 button:hover{
     color: #ffffff;
-    background: #204d74;
-    border-color: #122b40;
-}
-btn:hover{
-    color: #ffffff;
     background:#0164ac ;
     border-color: #0164ac;
 }
