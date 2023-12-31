@@ -17,6 +17,7 @@ body {
     color: #1a1a1a;
     font-weight: 400;
     overflow-x: hidden;
+    overflow-y: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale ;
     max-width: 1920px;
