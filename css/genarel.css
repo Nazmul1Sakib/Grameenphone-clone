@@ -87,7 +87,7 @@ button{
     font-weight: bold;
     border: 1px solid #0078CF;
     cursor: pointer;
-    webkit-transition: background 0.2s;
+    -webkit-transition: background 0.2s;
     transition: background 0.2s;
 }
 button:hover{
