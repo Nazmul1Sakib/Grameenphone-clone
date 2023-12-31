@@ -78,7 +78,7 @@ h2{
   line-height: 42px;
 }
 button{
-    background-color: #0078CF;
+    background: #0078CF;
     color: white;
     width: 115px;
     height: 50px;
@@ -86,6 +86,13 @@ button{
     font-weight: bold;
     border: 1px solid #0078CF;
     cursor: pointer;
+    webkit-transition: background 0.2s;
+    transition: background 0.2s;
+}
+button:hover{
+    color: #ffffff;
+    background: #204d74;
+    border-color: #122b40;
 }
 h5{
   position: absolute;
