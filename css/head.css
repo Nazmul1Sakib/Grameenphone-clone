@@ -422,10 +422,11 @@ overflow: hidden;
 .services{
  transition: all 1s;
  padding-right: 0;
- padding-top: 8px;
- padding-right: 0;
 }
 .header .midbar div .underline{
     opacity: 0;
     transition: all 0.15s;
-    }
+}
+.flexiplan{
+    margin-left: -50px;
+}
