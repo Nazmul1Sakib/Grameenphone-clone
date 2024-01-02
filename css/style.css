@@ -325,6 +325,12 @@ margin-top: 50px;
 .app-share{
 display: flex;
 margin-left: 80px;
+width:fit-content;
+height:fit-content;
+}
+.app-share a svg{
+    width: 137px; 
+ height: 41px;
 }
 .img-container{
 margin-left: 50px;
